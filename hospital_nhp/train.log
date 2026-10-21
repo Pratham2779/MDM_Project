@@ -1,0 +1,12 @@
+2026-10-21 19:23:34,279 [INFO] Loading data from /content/drive/MyDrive/hospital_nhp/data/Hospital_50000_Patients_5_Years.xlsx
+2026-10-21 19:23:40,736 [INFO] Processed 50,000 patients into 1850 daily records.
+2026-10-21 19:23:40,740 [INFO] Using device: cuda
+2026-10-21 19:23:40,740 [INFO] Computing Baselines...
+2026-10-21 19:23:40,749 [INFO] Tuning nhp_plain with HPs: {'hidden_dim': 16, 'lr': 0.001}
+2026-10-21 19:23:43,199 [INFO] Tuning nhp_plain with HPs: {'hidden_dim': 32, 'lr': 0.001}
+2026-10-21 19:23:44,079 [INFO] Tuning nhp_plain with HPs: {'hidden_dim': 32, 'lr': 0.0005}
+2026-10-21 19:23:44,930 [INFO] Tuning nhp_calendar with HPs: {'hidden_dim': 16, 'lr': 0.001}
+2026-10-21 19:23:45,888 [INFO] Tuning nhp_calendar with HPs: {'hidden_dim': 32, 'lr': 0.001}
+2026-10-21 19:23:46,836 [INFO] Tuning nhp_calendar with HPs: {'hidden_dim': 32, 'lr': 0.0005}
+2026-10-21 19:23:47,730 [INFO] Best Model: nhp_calendar, HP: {'hidden_dim': 32, 'lr': 0.001}. Refitting on Train+Val...
+2026-10-21 19:23:53,088 [INFO] Stage 1 (train.py) Completed Successfully.
